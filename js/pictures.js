@@ -46,5 +46,5 @@ var showImage = function (data) {
   galleryOverlay.querySelector('.comments-count').textContent = data.comment;
   galleryOverlay.querySelector('.likes-count').textContent = data.likes;
 };
-showImage(posting[getRandom(0, 25)]);
+showImage(posting[0]);
 
